@@ -1,4 +1,63 @@
-baseURL: "https://example.com"
+baseURL: "https://thenoesis.netlify.app"
 languageCode: "en-us"
-title: "Hugo Novela"
+title: "The Noesis Magazine"
 pygmentsstyle: 'monokai'
+paginate: 26
+languageCode: en
+enableEmoji: true
+enableRobotsTXT: true
+enableGitInfo: true
+copyright: The Noesis Magazine
+
+params:
+  description: We Inform, Inspire and Talk About Tech, Science, Design, Art and more
+  keywords: technology, design, science, art, culture, web development, programming, computers, gadgets, finance, noesis, intellect, intelligence, knowledge, the noesis, noetic, noesis magazine, the noesis magazine, the noetic magazing
+  hero: 
+
+social:
+  twitter: "#"
+  github: "#"
+  instagram: "#"
+  linkedin: "#"
+  dribbble: "#"
+  youtube: "#"
+
+taxonomies:
+  author: authors
+  tag: tags
+  category: categories
+
+author:
+  email: alunje73@gmail.com
+  name: Stephen Ajulu
+
+outputs:
+  home:
+    - "HTML"
+    - "RSS"
+
+outputFormats:
+  RSS:
+    mediatype: "application/rss"
+    baseName: "feed"
+
+related:
+  threshold: 0
+  includeNewer: true
+  toLower: false
+  indices:
+  - name: categories
+    weight: 200
+  - name: tags
+    weight: 500
+  - name: keywords
+    weight: 200
+  - name: date
+    weight: 10
+  - name: title
+    weight: 50
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
