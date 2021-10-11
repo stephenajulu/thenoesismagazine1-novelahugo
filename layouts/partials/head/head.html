@@ -69,7 +69,6 @@
     <link rel="{{ .Rel }}" type="{{ .MediaType.Type }}" href="{{ .Permalink | safeURL }}">
     {{ end -}}
     {{ with .Params.forestry_instant_preview_id }}
-    {{- safeHTML (printf "
-    <meta property='forestry_instant_preview_id' content='%s'>" .) -}}
+    {{- safeHTML (printf "<meta property='forestry_instant_preview_id' content='%s'>" .) -}}
     {{ end -}}
 </head>
