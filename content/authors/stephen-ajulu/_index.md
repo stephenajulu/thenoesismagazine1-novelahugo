@@ -1,7 +1,7 @@
 ---
 title: Stephen Ajulu
 bio: |
-  Founder, Writer, Web Developer, Designer, Tech and Finance Enthusiast
+  Editor In Chief and Tech Enthusiast
 avatar: /images/2.jpg
 featured: false
 social:
