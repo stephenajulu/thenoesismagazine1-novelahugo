@@ -8,6 +8,7 @@ enableEmoji: true
 enableRobotsTXT: true
 enableGitInfo: true
 copyright: The Noesis Magazine
+metaDataFormat: yaml
 
 params:
   description: Simplifying Tech, Design, Cybersecurity and More
