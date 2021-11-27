@@ -1,9 +1,10 @@
 ---
-authors = ["Stephen Ajulu"]
-date = 2021-11-27T11:44:00Z
-excerpt = "These are the industries that will shape the future"
-hero = "images/metaverse-thumb_2.jpeg"
-title = "16 Future Industries and Sectors"
+authors: 
+  - Stephen Ajulu
+date: 2021-11-27T11:44:00Z
+excerpt: These are the industries that will shape the future
+hero = "/images/metaverse-thumb_2.jpeg"
+title: 16 Future Industries and Sectors
 ---
 
  1. Artificial Intelligence
